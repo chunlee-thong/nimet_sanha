@@ -1,0 +1,29 @@
+name: nimet_sanha
+description: A flutter splash screen example app
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^1.2.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/angkor-wat.png
+  android: true
+  ios: true
+  web: false
